@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqTest", "RabbitMqTest\RabbitMqTest.csproj", "{AAB245AA-C993-452E-89DE-EE9D477CA0CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqTest.Sender", "RabbitMqTest.Sender\RabbitMqTest.Sender.csproj", "{9BAFDA12-D374-4300-A6C5-B27D1C45EB73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqTest.Receiver", "RabbitMqTest.Receiver\RabbitMqTest.Receiver.csproj", "{14F2013C-04D2-4A12-B4B5-3A2ADC0ACFDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqTest.Receiver.WindowsService", "RabbitMqTest.Receiver.WindowsService\RabbitMqTest.Receiver.WindowsService.csproj", "{79576F26-34C2-493B-BA9A-996118B5410F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqTest.Sender.FireAndForget", "RabbitMqTest.Sender.FireAndForget\RabbitMqTest.Sender.FireAndForget.csproj", "{BC5193F0-5774-42C8-8FB0-C36976F1361C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A554C444-1064-4003-B37F-D367BCB7F7FB}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAB245AA-C993-452E-89DE-EE9D477CA0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB245AA-C993-452E-89DE-EE9D477CA0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB245AA-C993-452E-89DE-EE9D477CA0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB245AA-C993-452E-89DE-EE9D477CA0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BAFDA12-D374-4300-A6C5-B27D1C45EB73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAFDA12-D374-4300-A6C5-B27D1C45EB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAFDA12-D374-4300-A6C5-B27D1C45EB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAFDA12-D374-4300-A6C5-B27D1C45EB73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F2013C-04D2-4A12-B4B5-3A2ADC0ACFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F2013C-04D2-4A12-B4B5-3A2ADC0ACFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F2013C-04D2-4A12-B4B5-3A2ADC0ACFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F2013C-04D2-4A12-B4B5-3A2ADC0ACFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79576F26-34C2-493B-BA9A-996118B5410F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79576F26-34C2-493B-BA9A-996118B5410F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79576F26-34C2-493B-BA9A-996118B5410F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79576F26-34C2-493B-BA9A-996118B5410F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5193F0-5774-42C8-8FB0-C36976F1361C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5193F0-5774-42C8-8FB0-C36976F1361C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5193F0-5774-42C8-8FB0-C36976F1361C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5193F0-5774-42C8-8FB0-C36976F1361C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

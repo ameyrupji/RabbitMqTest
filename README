@@ -1,0 +1,10 @@
+READ ME
+=======
+
+This this a test project for testing Rabbit MQ Client library in C#
+
+Prerequisites
+-------------
+
+- Visaul Studio 2013 + to compile and run the project. 
+- Rabbit MQ instance installed on your local computer. 
